@@ -4,6 +4,7 @@ version = "0.1.0"
 authors = ["Andrew Browne <dersaidin@dersaidin.net>"]
 edition = "2018"
 license = "MIT OR Apache-2.0"
+repository = "https://github.com/DerSaidin/proc_macro_global_state"
 description = "Example procedural macro using globals."
 
 [lib]
