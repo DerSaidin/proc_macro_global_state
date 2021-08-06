@@ -1,0 +1,16 @@
+[package]
+name = "proc_macro_global_state"
+version = "0.1.0"
+authors = ["Andrew Browne <dersaidin@dersaidin.net>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+description = "Example procedural macro using globals."
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0"
+quote = "1.0"
+syn = { version = "1.0", features = ["visit"] }
+lazy_static = "1.4.0"
